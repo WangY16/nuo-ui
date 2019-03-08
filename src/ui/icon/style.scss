@@ -1,0 +1,11 @@
+
+.icon-loading,
+.iconloading{
+    animation: n-rotate infinite 1s linear;
+    display: inline-block;
+}
+
+@keyframes n-rotate{
+    from {transform: rotateZ(0deg) }
+    to{transform: rotateZ(360deg)}
+}

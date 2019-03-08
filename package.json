@@ -1,0 +1,29 @@
+{
+    "name": "nuo-ui",
+    "version": "1.0.0",
+    "description": "React UI built by NuoFE",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node node_modules/site-flame/scripts/start -dev",
+        "start": "npm run dev"
+    },
+    "keywords": [
+        "react",
+        "ui",
+        "pc"
+    ],
+    "author": "NuoFE",
+    "license": "ISC",
+    "eslintConfig": {
+        "extends": "@78d6/eslint-config-react-app",
+        "root": true
+    },
+    "devDependencies": {
+        "site-flame": "*",
+        "fast-sass-loader": "^1.4.7",
+        "node-sass": "^4.11.0"
+    },
+    "dependencies": {
+        "classnames": "^2.2.6"
+    }
+}

@@ -1,0 +1,9 @@
+@import './config.scss';
+
+
+@function getColor($bgColor) {
+    $s: saturation($bgColor);
+    $l: lightness($bgColor);
+
+    // @if()
+}
